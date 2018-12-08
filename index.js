@@ -1,3 +1,6 @@
-[...document.getElementsByClassName("u-fixed")].forEach(cur => {
-  cur.style.display = "none";
-});
+document.head.insertAdjacentHTML(
+  "beforeend",
+  `<link rel="stylesheet" type="text/css" href="${chrome.runtime.getURL(
+    "styles.css"
+  )}">`
+);

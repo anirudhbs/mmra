@@ -6,11 +6,11 @@
   "icons": {
     "128": "icon.png"
   },
-  "permissions": ["https://*/*"],
   "content_scripts": [
     {
       "js": ["index.js"],
-      "matches": ["https://*/*"]
+      "matches": ["https://medium.com/*", "https://hackernoon.com/*"]
     }
-  ]
+  ],
+  "web_accessible_resources": ["styles.css"]
 }
