@@ -1,7 +1,3 @@
-node_modules/
-package-lock.json
-
-# not sure about this
-.babelrc
-.eslintrc
-package.json
+.todo
+*.crx
+*.pem
