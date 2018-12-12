@@ -1,5 +1,13 @@
 .u-fixed,
 .metabar,
-.aspectRatioPlaceholder {
+.overlay, /* login popup */
+.butterBar, /* cookie notification */
+.postMeterBar {
+  /* subscription message */
   display: none;
+}
+
+.u-overflowHidden {
+  /* allow scrolling after hiding overlay */
+  overflow-y: scroll !important;
 }
