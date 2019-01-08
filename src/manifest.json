@@ -10,11 +10,7 @@
     {
       "run_at": "document_end",
       "js": ["index.js"],
-      "matches": [
-        "https://medium.com/*",
-        "https://hackernoon.com/*",
-        "https://medium.freecodecamp.org/*"
-      ]
+      "matches": ["<all_urls>"]
     }
   ],
   "web_accessible_resources": ["styles.css"]
